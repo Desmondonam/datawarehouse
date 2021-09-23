@@ -97,7 +97,7 @@ def insert_to_occupancy_table(dbName: str, df: pd.DataFrame, table_name: str) ->
     return
 print('=============occupancy data insert complete===============================')
 if __name__ == "__main__":
-    df = pd.read_csv('../data/richards.csv')
+    df = pd.read_csv('C:/Users/DESMOND/datawarehouse/data/richards.csv')
     DBConnect('richards')
     insert_to_time_table(dbName='richards', df=df, table_name='time')
     insert_to_flow_table(dbName='richards', df=df, table_name='flow')
