@@ -1,6 +1,6 @@
 "# datawarehouse" 
 
-Building data warehouse techstack
+## Building data warehouse techstack
 
 Consisting of A “data warehouse” (mysql, sqlite) An orchestration service (Airflow) An ELT tool (dbt) A reporting environment (redash) Set it up locally using fully dockerized
 
