@@ -1,4 +1,4 @@
-"# datawarehouse" 
+# datawarehouse
 
 ## Building data warehouse techstack
 
