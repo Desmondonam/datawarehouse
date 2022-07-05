@@ -1,4 +1,4 @@
-# datawarehouse
+# Datawarehouse
 
 ## Building data warehouse techstack
 
@@ -11,3 +11,5 @@ Create a DAG in Airflow that uses the bash/python operator to load the data file
 
 This is an example of how airflow works. In this we have created the first DAGS and we have used GCP to show how 
 the airflow works
+
+## dbt
