@@ -52,7 +52,12 @@ TABLES['occupancy'] = (
 
 
  
-conn = mysql.connector.connect(host='DATAWAREHOUSE', user='root')
+conn = mysql.connector.connect(
+    host = "localhost",
+    user = "root",
+    password = "desmond2@HB",
+    database = "DATAWAREHOUSE"
+)
 cur = conn.cursor()
     
 
